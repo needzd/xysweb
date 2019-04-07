@@ -1,0 +1,96 @@
+/* brand */
+.flow_title{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom:30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+}
+.flow_title p:nth-child(1){
+    font-size: 26px;
+    color: #333;
+    padding-bottom: 10px;
+}
+.flow_title p:nth-child(2){
+    font-size: 13px;
+    font-weight: normal;
+    color: #bababa;
+    padding: 2px;
+}
+.in_title{
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+.brand{
+    width: 100%;
+    background: #F7F7F7;
+}
+.brandbox{
+    width: 90%;
+    padding: 0 5%;
+}
+.brand_content{
+    width: 100%;
+}
+.brand_img{
+    width: 86%;
+    margin: auto;
+}
+.brand_img img{
+    margin-bottom: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 10%;
+    margin: auto;
+}
+
+
+/* foot */
+.foot{
+    width: 100%;
+    background: #C1C1C1;
+    padding-bottom: 10px;
+}
+.footbox{
+    width: 70%;
+    padding: 0 15%;
+}
+.foot_content{
+    width: 100%;
+}
+.foot_content p{
+    font-size: 12px;
+    color: rgb(128, 128, 128);
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* 回到顶部 */
+.gotop{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    cursor: pointer;
+}
+.gotop img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width: 1117px){
+    .brand_img{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 670px){
+    .brand_img img{
+        margin-bottom: 10px;
+        padding-left: 3%;
+        padding-right: 3%;
+        width: 43%;
+        margin: auto;
+    }
+}

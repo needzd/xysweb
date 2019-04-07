@@ -1,0 +1,52 @@
+/* .effect_title */
+.effect_title{
+    width: 100%;
+}
+.e_titlebox{
+    width: 90%;
+    padding: 0 5%;  
+}
+.e_titlebox p{
+    width: 100%;
+    line-height: 1.5em;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #808080;
+    background:#F4F4F4;
+    margin-bottom: 10px; 
+}
+
+/* effect content */
+.effect_content{
+    width: 100%;
+    padding-bottom: 50px; 
+}
+.e_content{
+    width: 90%;
+    padding: 0 5%;   
+}
+.e_con_img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.e_con_img a{
+    width: 24%;
+    padding: 0.5%;
+}
+.e_con_img a img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 760px){
+    .e_con_img a{
+        width: 49%;
+        padding: 0.5%;
+    }
+}
+
+
+
